@@ -2,19 +2,19 @@
 # maxkuttner/homebrew-tap as Formula/openoms.rb. Edit the template, not the tap.
 class Openoms < Formula
   desc "Order management system: server, web cockpit and CLI in one binary"
-  homepage "https://maxkuttner.github.io/openoms/"
+  homepage "https://openoms.dev/"
 
   on_macos do
     on_arm do
-      url "https://github.com/maxkuttner/openoms/releases/download/v0.7.0/oms-aarch64-apple-darwin.tar.gz"
-      sha256 "a9250c97c931e1d3d30ff8a3c067498e1d913169272d8e66891d69c09b259741"
+      url "https://github.com/maxkuttner/openoms/releases/download/v0.7.1/oms-aarch64-apple-darwin.tar.gz"
+      sha256 "c88131507fceae859b82173504c7eb88fd0b2224a0aab4909775665f3e5f43f6"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/maxkuttner/openoms/releases/download/v0.7.0/oms-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "b09ef03f5b18bd8e94eb538a97638151458296df5cdd7d79a7d7c4a74c1f2326"
+      url "https://github.com/maxkuttner/openoms/releases/download/v0.7.1/oms-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "a7850ea9c7563b20133a486829a48e5475aae32e21f7c87ace7f7552002c22e1"
     end
   end
 
@@ -27,7 +27,7 @@ class Openoms < Formula
       Set up the database and cockpit login, then start the server:
         oms init
         oms
-      Guide: https://maxkuttner.github.io/openoms/getting-started/
+      Guide: https://openoms.dev/getting-started/
     EOS
   end
 
