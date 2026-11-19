@@ -6,15 +6,15 @@ class Openoms < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/maxkuttner/openoms/releases/download/v0.11.0/oms-aarch64-apple-darwin.tar.gz"
-      sha256 "b7a80e51026e818d1421437e763be4c8ad4c36c7b9f07e626a9b5b0646be4436"
+      url "https://github.com/maxkuttner/openoms/releases/download/v0.12.0/oms-aarch64-apple-darwin.tar.gz"
+      sha256 "44d68317d37babfa7e6e1ced9d9effbccef57fcce9d5a313a6c0b7ebe63a7dd4"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/maxkuttner/openoms/releases/download/v0.11.0/oms-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "69e2309d613dd245d354d7264d4ed3c4ed7e1b83ea60502f4ed1dec10fb71e14"
+      url "https://github.com/maxkuttner/openoms/releases/download/v0.12.0/oms-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "bdb6b40b396180905673e11f58dd82e84250ccac369e8a1e23dbdb1406b73814"
     end
   end
 
